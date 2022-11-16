@@ -1,13 +1,17 @@
-# uwuups! aww p tags!
- uwuups! i accidentawwy tuwwned aww ur code into p tags
+# uwuups! aww divs!
+ uwuups! i accidentawwy tuwwned aww ur code into divs
 
 ## instawwation
 1. dewete githuwb and nevew visit this wepo again
-2. downwoad `p-ifier.css` and `p-ifier.js`
-3. dwag into appwopwiate wocation
-4. link to js at bottom 🥺 of `<body>`, css in `<head>`
-5. wepwace html with p tags
-6. puwt on fuwwsuwit
+2. puwt on pwogwammer socks
+3. downwoad `div-ifier.js`
+4. dwag into appwopwiate wocation
+5. link to js at bottom 🥺 of `<body>`
+6. wepwace `<body>` content with divs
+7. take off pwogwammer socks
+
+## uwusage
+
 
 ## owo what's this? a buwg?
 1. good
@@ -22,10 +26,8 @@
 4. L+watio+mawd+cwy abouwt it
 
 ## limitations
-- only works for text and links
-- cannot use p tags as many elements (will have to replace with corresponding elements in js)
-- middle-click links don't work
-- prettier doesn't like it, won't format correctly
+- autocomplete/code editors don't like it
+
 
 
 
