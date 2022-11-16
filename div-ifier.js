@@ -119,7 +119,10 @@ const divs = document.querySelectorAll("div");
 divs.forEach((div) => {
   div.classList.forEach((cssClass) => {
     if (elements.includes(cssClass)) {
-      
+      var oldEl = div.innerHTML;
+      var oldElAttr = div.getAttribute("*");
+      console.log(oldEl + " " + oldElAttr);
+      // document.createElement(cssClass)
     }
   });
 });
