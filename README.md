@@ -25,7 +25,7 @@
 - only works for text and links
 - cannot use p tags as many elements (will have to replace with corresponding elements in js)
 - middle-click links don't work
-- prettier doesn't like it, won't format
+- prettier doesn't like it, won't format correctly
 
 
 
