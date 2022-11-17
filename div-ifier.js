@@ -1,4 +1,23 @@
-console.log(document.documentElement.innerHTML);
+function setAttr(sourceEl, targetEl) {
+  // yoinked from https://bobbyhadz.com/blog/javascript-get-all-attributes-of-element
+  const element = sourceEl;
+
+  // ✅ Get object of all {name: value}
+  const attrs = element.getAttributeNames().reduce((acc, name) => {
+    return { ...acc, [name]: element.getAttribute(name) };
+  }, {});
+
+  // ✅ Get array of all attribute names
+  const attrNames = element.getAttributeNames();
+
+  // ✅ Get array of all attribute values
+  const attrValues = element
+    .getAttributeNames()
+    .map((name) => element.getAttribute(name));
+
+  
+
+}
 
 const elements = [
   "a",
@@ -117,6 +136,7 @@ const elements = [
 const divs = document.querySelectorAll("div");
 
 divs.forEach((div) => {
+  getTags(div);
   div.classList.forEach((cssClass) => {
     if (elements.includes(cssClass)) {
       var oldEl = div.innerHTML;
