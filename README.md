@@ -6,8 +6,8 @@ tiwed of sewantic HTML? with divifier.js, the onwy tag u neewd is &lt;div&gt;!
 
 - [instawwation](#instawwation)
 - [uwusage](#uwusage)
-	- [cweate a tabwle](#cweate-a-tabwle)
-- [configuwwation](#configuwwation)
+	- [exampwle: cweate a tabwle](#exampwle-cweate-a-tabwle)
+- [configuwuation](#configuwuation)
 	- [uwuse awll `<span>` ewements, tuwwn off consowle message](#uwuse-awll-span-ewements-tuwwn-off-consowle-message)
 - [owo what's this? a buwg?](#owo-whats-this-a-buwg)
 - [contwibuwting](#contwibuwting)
@@ -40,7 +40,7 @@ tiwed of sewantic HTML? with divifier.js, the onwy tag u neewd is &lt;div&gt;!
 
 add a `<div>` with a class corresponding to whatever tag you want, and use whatever attributes fit that tag.
 
-### cweate a tabwle
+### exampwle: cweate a tabwle
 
 ```
 <div class="table">
@@ -62,8 +62,9 @@ add a `<div>` with a class corresponding to whatever tag you want, and use whate
 	</div>
 </div>
 ```
+###### the [demo page](https://example.com)'s [source](https://github.com/eaaasun/divifier/blob/main/index.html) has more examples, check it out! <!-- omit in toc -->
 
-## configuwwation
+## configuwuation
 option | value | default
 --- | --- | ---
 target | string | "div"
@@ -82,7 +83,6 @@ consoleMsg | boolean | true
 </body>
 ```
 
-###### the [demo page](https://example.com)'s [source](https://github.com/eaaasun/divifier/blob/main/index.html) has more examples, check it out! <!-- omit in toc -->
 ## owo what's this? a buwg?
 
 1. good
