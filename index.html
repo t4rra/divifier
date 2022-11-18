@@ -6,110 +6,127 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>uwuups! awll divs!</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<div>
-		<div class="h1">tired of semantic HTML?</div>
-		<div class="p">with divifier.js, the only tag you need is &lt;div&gt;!</div>
-	</div>
-	<div class="h2">quick start</div>
-	<div class="p">divifier is very simple to install.</div>
-	<div class="ol">
-		<div class="li">put on programming socks</div>
-		<div class="li">paste the cdn link script right before the closing <div class="code">
-				&lt;/body&gt;</div> tag.<div class="br"></div>
-			<div class="code">&lt;script
-				href="https://cdn.jsdelivr.net/gh/eaaasun/divifier@latest/divifier.js"&gt;&lt;/script&gt; </div>
+	<div class="header">
+		<div class="h1">tiwed of sewantic HTML?</div>
+		<div class="h3">with divifier.js, the onwy tag u neewd is &lt;div&gt;!</div>
+		<div class="h2">
+			<div class="a" href="https://github.com/eaaasun/divifier" target="_blank">github repo (more documentation)
+			</div>
 		</div>
-		<div class="li">paste the code after the cdn link to initialize divifier <div class="br"></div>
-			<div class="code">
-				&lt;script&gt;
-				divify();
-				&lt;/script&gt;
+		<div class="h2">tabwe of contewnts</div>
+		<div class="ul">
+			<div class="li">
+				<div class="a" href="#quickstart">quwick stawt</div>
+			</div>
+			<div class="li">
+				<div class="a" href="#usage">uwusage</div>
+			</div>
+			<div class="li">
+				<div class="a" href="#config">configuwwation</div>
+			</div>
+			<div class="li">
+				<div class="a" href="#examples">exampwles</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="h2" id="quickstart">quwick stawt</div>
+		<div class="p">divifier is vewy simpwle to instawll.</div>
+		<div class="ol">
+			<div class="li">put on programming socks</div>
+			<div class="li">paste the cdn link script right before the closing
+				<div class="code">
+					&lt;/body&gt;</div> tag.<div class="br"></div>
+				<div class="codeParent">
+					<div class="code">&lt;script
+						href="https://cdn.jsdelivr.net/gh/eaaasun/divifier@latest/divifier.js"&gt;&lt;/script&gt;</div>
+				</div>
+			</div>
+			<div class="li">paste the code after the cdn link to initialize divifier <div class="br"></div>
+				<div class="codeParent">
+					<div class="code">
+						&lt;script&gt;
+						divify();
+						&lt;/script&gt;
+					</div>
+				</div>
+			</div>
+			<div class="li">take off programming socks</div>
+		</div>
+		<div class="h2" id="usage">uwusage</div>
+		<div class="p">add a <div class="code">&lt;div&gt;</div> with a class corresponding to whatever tag you want, and use whatever attributes fit that tag.
+			<div class="a" href="#examples">see the examples </div>
+		</div>
+		<div>
+			<div class="h2" id="config">configuwwation</div>
+			<div class="table">
+				<div class="tr">
+					<div class="th">option</div>
+					<div class="th">value</div>
+					<div class="th">default</div>
+				</div>
+				<div class="tr">
+					<div class="td">target</div>
+					<div class="td">string</div>
+					<div class="td">"div"</div>
+				</div>
+				<div class="tr">
+					<div class="td">consoleMsg</div>
+					<div class="td">boolean</div>
+					<div class="td">true</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="h2" id="examples">exampwles</div>
+			<div class="h3">uwuse awll &lt;span&gt; ewements, tuwwn off consowle message</div>
+			<div class="codeParent">
+				<div class="pre">
+	&lt;!-- other code --&gt;
+	&lt;script href="https://cdn.jsdelivr.net/gh/eaaasun/divifier@latest/divifier.js"&gt;&lt;/script&gt;
+	&lt;script&gt;
+		divify({
+			target: "span",
+			consoleMsg: false
+		});
+	&lt;/script&gt;
+&lt;/body&gt;
+				</div>
+			</div>
 
+			<div class="h3">cweate a tabwle</div>
+			<div class="codeParent">
+				<div class="pre">
+&lt;div class="table"&gt;
+	&lt;div class="tr"&gt;
+		&lt;div class="th"&gt;thing&lt;/div&gt;
+		&lt;div class="th"&gt;link&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="tr"&gt;
+		&lt;div class="td"&gt;example site&lt;/div&gt;
+		&lt;div class="td"&gt;
+			&lt;div class="a" href="https://example.com"&gt;link&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="tr"&gt;
+		&lt;div class="td"&gt;image&lt;/div&gt;
+		&lt;div class="td"&gt;
+			&lt;div class="img" src="https://example.com/example.png" alt="example image"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;				</div>
 			</div>
-		</div>
-		<div class="li">take off programming socks</div>
-	</div>
-	<div>
-		<div class="h2">customizing</div>
-		<div class="table">
-			<div class="tr">
-				<div class="th">option</div>
-				<div class="th">value</div>
-				<div class="th">default</div>
-			</div>
-			<div class="tr">
-				<div class="td">target</div>
-				<div class="td">string</div>
-				<div class="td">"div"</div>
-			</div>
-			<div class="tr">
-				<div class="td">consoleMsg</div>
-				<div class="td">boolean</div>
-				<div class="td">true</div>
-			</div>
-		</div>
-	</div>
-	<div>
-		<div class="h2">examples</div>
-		<div class="h3">quick start</div>
-		<div class="code">
-			&lt;!-- other code --&gt;
-			<div class="br"></div>
-			&lt;script href="https://cdn.jsdelivr.net/gh/eaaasun/divifier@latest/divifier.js"&gt;&lt;/script&gt;
-			<div class="br"></div>
-			&lt;script&gt;
-			divify();
-			&lt;/script&gt;
-			<div class="br"></div>
-			&lt;/body&gt;
-		</div>
-		<div class="h3">use all &lt;span&gt; elements, turn off console message</div>
-		<div class="code">
-			&lt;!-- other code --&gt;
-			<div class="br"></div>
-			&lt;script href="https://cdn.jsdelivr.net/gh/eaaasun/divifier@latest/divifier.js"&gt;&lt;/script&gt;
-			<div class="br"></div>
-			&lt;script&gt;
-			<div class="br"></div>
-			&nbsp;&nbsp;divify({
-				<div class="br"></div>
-				&nbsp;&nbsp;&nbsp;&nbsp;target: "span",
-				<div class="br"></div>
-				&nbsp;&nbsp;&nbsp;&nbsp;consoleMsg: false
-				<div class="br"></div>
-				&nbsp;&nbsp;});
-			<div class="br"></div>
-			&lt;/script&gt;
-			<div class="br"></div>
-			&lt;/body&gt;
-		</div>
-	</div>
-	<div class="table">
-		<div class="tr">
-			<div class="th">advantages</div>
-			<div class="th">disadvantages</div>
-		</div>
-		<div class="tr">
-			<div class="td">its all divs</div>
-			<div class="td">none</div>
-		</div>
-		<div class="tr">
-			<div class="td">larger file size</div>
-		</div>
-	</div>
-	<div>
-		<div class="img" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png" alt="sample image">
-		</div>
-		<div class="img" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png" alt="sample image">
 		</div>
 	</div>
 	<div class="footer">
 		<div class="h6">
-			<div class="a" href="https://github.com/eaaasun/divifier">visit the github repo!</div>
+			<div class="a" href="https://github.com/eaaasun/" target="_blank">another (awful) thing by easun</div>
 		</div>
+		<div class="h6">i am so, so deeply sorry</div>
 	</div>
 	<script src="divifier.js"></script>
 	<script>

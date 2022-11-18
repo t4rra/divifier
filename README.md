@@ -1,5 +1,5 @@
 # uwuups! awll divs! <!-- omit in toc -->
- uwuups! i accidentawwy tuwwned awl ur code into divs!
+tiwed of sewantic HTML? with divifier.js, the onwy tag u neewd is &lt;div&gt;!
 
 ### Tabwe of Contewnts <!-- omit in toc -->
 - [instawwation](#instawwation)
@@ -63,7 +63,8 @@ by default, there will be a message
 4. L+ratio+mald+cry about it
 
 ## wimitations
-- autocomplete/code editors don't like it
+- autocomplete/code editors won't autocomplete
+- formatters won't format properly
 
 
 
