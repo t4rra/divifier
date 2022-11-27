@@ -51,18 +51,18 @@ add a `<div>` with a class corresponding to whatever tag you want, and use whate
 	<div class="tr">
 		<div class="td">example site</div>
 		<div class="td">
-			<div class="a" href="https://example.com">link</div>
+			<div class="a" href="https://divifier.js.org">link</div>
 		</div>
 	</div>
 	<div class="tr">
 		<div class="td">image</div>
 		<div class="td">
-			<div class="img" src="https://example.com/example.png" alt="example image"></div>
+			<div class="img" src="https://divifier.js.org/example.png" alt="example image"></div>
 		</div>
 	</div>
 </div>
 ```
-###### the [demo page](https://example.com)'s [source](https://github.com/eaaasun/divifier/blob/main/index.html) has more examples, check it out! <!-- omit in toc -->
+###### the [demo page](https://divifier.js.org)'s [source](https://github.com/eaaasun/divifier/blob/main/index.html) has more examples, check it out! <!-- omit in toc -->
 
 ## configuwuation
 option | value | default
