@@ -59,6 +59,7 @@ code, pre {
   background-color: var(--color-bg_alt);
   padding: 10px;
   margin-bottom: 15px;
+  overflow: scroll;
 }
 
 table,
